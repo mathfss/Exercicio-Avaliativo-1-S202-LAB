@@ -1,8 +1,8 @@
 from UML import Motorista, Passageiro, Corrida
 
 class MotoristaCLI:
-    def __init__(self, motorista_dao):
-        self.dao = motorista_dao
+    def __init__(self, MotoristaDAO):
+        self.dao = MotoristaDAO
 
     def menu(self):
         while True:
